@@ -37,8 +37,6 @@ export class Currency {
 
   public static readonly MNT: Currency = new Currency(18, 'MNT', 'Mantle')
 
-  public static readonly POL: Currency = new Currency(18, 'POL', 'POL')
-
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
     [ChainId.ROPSTEN]: Currency.ETHER,
@@ -65,7 +63,7 @@ export class Currency {
     [ChainId.SHIBARIUM]: Currency.BONE,
     [ChainId.OPTIMISM_SEPOLIA]: Currency.ETHER,
     [ChainId.BASE_SEPOLIA]: Currency.ETHER,
-    [ChainId.POLYGON_AMOY]: Currency.POL,
+    [ChainId.POLYGON_AMOY]: Currency.MATIC,
     [ChainId.LINEA_SEPOLIA]: Currency.ETHER,
     [ChainId.SCROLL_SEPOLIA]: Currency.ETHER,
     [ChainId.MANTLE_TESTNET]: Currency.MNT,
