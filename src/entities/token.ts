@@ -116,7 +116,7 @@ export const WETH = {
   ),
   [ChainId.ARBITRUM]: new Token(
     ChainId.ARBITRUM,
-    '0xf8456e5e6A225C2C1D74D8C9a4cB2B1d5dc1153b',
+    '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
     18,
     'WETH',
     'Wrapped Ether'
@@ -160,7 +160,7 @@ export const WETH = {
   ),
   [ChainId.SEPOLIA]: new Token(
       ChainId.SEPOLIA,
-      '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+      '0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14',
       18,
       'WETH',
       'Wrapped Ether'
@@ -186,7 +186,7 @@ export const WETH = {
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, '0x5300000000000000000000000000000000000004', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MANTLE_TESTNET]: new Token(ChainId.MANTLE_TESTNET, '0x19f5557E23e9914A18239990f6C70D68FDF0deD5', 18, 'WMNT', 'Wrapped Mantle'),
   [ChainId.CELO_ALFAJORES]: new Token(ChainId.CELO_ALFAJORES, '0x99604d0e2EfE7ABFb58BdE565b5330Bb46Ab3Dca', 18, 'WCELO', 'Wrapped Celo'),
-  [ChainId.ARBITRUM_SEPOLIA]: new Token(ChainId.ARBITRUM_SEPOLIA, '0xE591bf0A0CF924A0674d7792db046B23CEbF5f34', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.ARBITRUM_SEPOLIA]: new Token(ChainId.ARBITRUM_SEPOLIA, '0x980B62Da83eFf3D4576C647993b0c1D7faf17c73', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.BLAST_SEPOLIA]: new Token(ChainId.BLAST_SEPOLIA, '0x4200000000000000000000000000000000000023', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.GNOSIS_CHIADO]: new Token(ChainId.GNOSIS_CHIADO, '0x18c8a7ec7897177E4529065a7E7B0878358B3BfF', 18, 'WXDAI', 'Wrapped xDai')
 }
