@@ -33,6 +33,10 @@ export class Currency {
 
   public static readonly BONE: Currency = new Currency(18, 'BONE', 'BONE')
 
+  public static readonly CELO: Currency = new Currency(18, 'CELO', 'Celo')
+
+  public static readonly MNT: Currency = new Currency(18, 'MNT', 'Mantle')
+
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
     [ChainId.ROPSTEN]: Currency.ETHER,
@@ -57,6 +61,16 @@ export class Currency {
     [ChainId.SEPOLIA]: Currency.ETHER,
     [ChainId.PUPPYNET]: Currency.BONE,
     [ChainId.SHIBARIUM]: Currency.BONE,
+    [ChainId.OPTIMISM_SEPOLIA]: Currency.ETHER,
+    [ChainId.BASE_SEPOLIA]: Currency.ETHER,
+    [ChainId.POLYGON_AMOY]: Currency.MATIC,
+    [ChainId.LINEA_SEPOLIA]: Currency.ETHER,
+    [ChainId.SCROLL_SEPOLIA]: Currency.ETHER,
+    [ChainId.MANTLE_TESTNET]: Currency.MNT,
+    [ChainId.CELO_ALFAJORES]: Currency.CELO,
+    [ChainId.ARBITRUM_SEPOLIA]: Currency.ETHER,
+    [ChainId.BLAST_SEPOLIA]: Currency.ETHER,
+    [ChainId.GNOSIS_CHIADO]: Currency.XDAI,
   }
 
   /**

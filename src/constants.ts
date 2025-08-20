@@ -29,7 +29,17 @@ export enum ChainId {
   HARMONY_TESTNET = 1666700000,
   SEPOLIA = 11155111,
   PUPPYNET = 157,
-  SHIBARIUM = 109
+  SHIBARIUM = 109,
+  OPTIMISM_SEPOLIA = 11155420,
+  BASE_SEPOLIA = 84532,
+  POLYGON_AMOY = 80002,
+  LINEA_SEPOLIA = 59141,
+  SCROLL_SEPOLIA = 534351,
+  MANTLE_TESTNET = 5003,
+  CELO_ALFAJORES = 44787,
+  ARBITRUM_SEPOLIA = 421614,
+  BLAST_SEPOLIA = 168587773,
+  GNOSIS_CHIADO = 10200
 }
 
 export enum TradeType {
@@ -69,7 +79,17 @@ export const SHIBA_CODE_HASH: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '0x65d1a3b1e46c6e4f1be1ad5f99ef14dc488ae0549dc97db9b30afe2241ce1c7a',
-  [ChainId.SHIBARIUM] : '0x65d1a3b1e46c6e4f1be1ad5f99ef14dc488ae0549dc97db9b30afe2241ce1c7a'
+  [ChainId.SHIBARIUM] : '0x65d1a3b1e46c6e4f1be1ad5f99ef14dc488ae0549dc97db9b30afe2241ce1c7a',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 // TODO REMOVE
@@ -96,7 +116,17 @@ export const SUSHI_FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.SEPOLIA]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 export const SHIBASWAP_FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
@@ -122,7 +152,17 @@ export const SHIBASWAP_FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA]: '0xb9E15055807FcDd1f845c1eBF04BF7A176379faA',
   [ChainId.PUPPYNET] : '0xb9E15055807FcDd1f845c1eBF04BF7A176379faA',
-  [ChainId.SHIBARIUM] : '0xc2b4218F137e3A5A9B98ab3AE804108F0D312CBC'
+  [ChainId.SHIBARIUM] : '0xc2b4218F137e3A5A9B98ab3AE804108F0D312CBC',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 export const SHIBASWAP_ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -148,7 +188,17 @@ export const SHIBASWAP_ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x48717E3f404031B00ECA7A69E3918f541c496E0d',
-  [ChainId.SHIBARIUM] : '0xEF83bbB63E8A7442E3a4a5d28d9bBf32D7c813c8'
+  [ChainId.SHIBARIUM] : '0xEF83bbB63E8A7442E3a4a5d28d9bBf32D7c813c8',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -175,7 +225,17 @@ export const SHIBASWAP_BONE_TOKEN_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x0000000000000000000000000000000000001010',
-  [ChainId.SHIBARIUM] : '0x0000000000000000000000000000000000001010'
+  [ChainId.SHIBARIUM] : '0x0000000000000000000000000000000000001010',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -202,7 +262,17 @@ export const SHIBASWAP_BURY_BONE_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x9d85c1420622ba1ad21B8299AEEFb3356037a984',
-  [ChainId.SHIBARIUM] : '0x9d85c1420622ba1ad21B8299AEEFb3356037a984'
+  [ChainId.SHIBARIUM] : '0x9d85c1420622ba1ad21B8299AEEFb3356037a984',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -229,7 +299,17 @@ export const SHIBASWAP_BURY_LEASH_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x5a7540C532f744C108dE81d6FE4c6aD614587A53',
-  [ChainId.SHIBARIUM] : '0x5a7540C532f744C108dE81d6FE4c6aD614587A53'
+  [ChainId.SHIBARIUM] : '0x5a7540C532f744C108dE81d6FE4c6aD614587A53',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -256,7 +336,17 @@ export const SHIBASWAP_BURY_SHIB_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x6f4A7A3063C531F3124f7a5c50331f5b35235Dd8',
-  [ChainId.SHIBARIUM] : '0x6f4A7A3063C531F3124f7a5c50331f5b35235Dd8'
+  [ChainId.SHIBARIUM] : '0x6f4A7A3063C531F3124f7a5c50331f5b35235Dd8',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -267,7 +357,17 @@ export const BONE_LOCKER_ADDRESS: { [chainId in ChainId]?: string } = {
   [ChainId.KOVAN]: '0xA18529a564ED8d6EeDDFd468104f321b5844d83a',
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x15176d8986817C0B58e6fb7EB31dfFB56D195987',
-  [ChainId.SHIBARIUM] : '0x15176d8986817C0B58e6fb7EB31dfFB56D195987'
+  [ChainId.SHIBARIUM] : '0x15176d8986817C0B58e6fb7EB31dfFB56D195987',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -294,7 +394,17 @@ export const SHIBASWAP_TOPDOG_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '0x0aD1b189c682D4Dc16a54f173d2dbe6cEafD3141',
-  [ChainId.SHIBARIUM] : '0x0aD1b189c682D4Dc16a54f173d2dbe6cEafD3141'
+  [ChainId.SHIBARIUM] : '0x0aD1b189c682D4Dc16a54f173d2dbe6cEafD3141',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -321,7 +431,17 @@ export const SHIBASWAP_UNI_FETCH_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -348,7 +468,17 @@ export const SHIBASWAP_SUSHI_FETCH_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -360,7 +490,17 @@ export const SHIBA_DASHBOARD_1_ADDRESS: { [chainId in ChainId]?: string } = {
   [ChainId.KOVAN]: '0x52e37981D941D13072870d58Ed7cC9c9f50F0C4c',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -372,7 +512,17 @@ export const SHIBA_DASHBOARD_2_ADDRESS: { [chainId in ChainId]?: string } = {
   [ChainId.KOVAN]: '0x695F54EE70b98DC971554034139cd9b78E771a11',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -399,7 +549,17 @@ export const SHIBASWAP_SHIB_TOKEN_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0xAc720702Df63fa92416B3dEB24Dc4a1854f73330',
-  [ChainId.SHIBARIUM] : '0x495eea66B0f8b636D441dC6a98d8F5C3D455C4c0'
+  [ChainId.SHIBARIUM] : '0x495eea66B0f8b636D441dC6a98d8F5C3D455C4c0',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -426,7 +586,17 @@ export const SHIBASWAP_LEASH_TOKEN_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '0x367a6722F2e2b09b6024A1C05deAD45e68CE385A',
-  [ChainId.SHIBARIUM] : '0x65218A41Fb92637254B4f8c97448d3dF343A3064'
+  [ChainId.SHIBARIUM] : '0x65218A41Fb92637254B4f8c97448d3dF343A3064',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 // Mostly not needed
@@ -454,7 +624,17 @@ export const SHIBASWAP_TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 // TODO GOLIVE
@@ -466,7 +646,8 @@ export const SHIBA_BORING_HELPER_ADDRESS: { [chainId in ChainId]?: string } = {
   [ChainId.KOVAN]: '0x7F561103db907D9865814E8fFFb0cee29BD1B414',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
@@ -499,7 +680,8 @@ export const ARCHIEVE_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: strin
   [ChainId.RINKEBY]: '0xcA335E086de6b546e152A8C67BdB20656750872f',
   [ChainId.SEPOLIA]: '0xcA335E086de6b546e152A8C67BdB20656750872f',
   [ChainId.PUPPYNET] : '0xcA335E086de6b546e152A8C67BdB20656750872f',
-  [ChainId.SHIBARIUM] : '0xcA335E086de6b546e152A8C67BdB20656750872f'
+  [ChainId.SHIBARIUM] : '0xcA335E086de6b546e152A8C67BdB20656750872f',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 
@@ -510,7 +692,8 @@ export const xSHIB_BONE_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: str
   [ChainId.RINKEBY]: '0x96ffC9220BEe9609D24062699d800d3B32b2f8C5',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 export const xLEASH_BONE_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
@@ -520,7 +703,8 @@ export const xLEASH_BONE_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: st
   [ChainId.RINKEBY]: '0x6A8b4Eff67909aA4e0dDC600016220562419d2F7',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 export const xSHIB_WETH_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
@@ -530,7 +714,8 @@ export const xSHIB_WETH_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: str
   [ChainId.RINKEBY]: '0x9e7f876580bA07C5E14310cD580B8BBbF7FEB50F',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 export const WBTC_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
@@ -540,7 +725,8 @@ export const WBTC_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } 
   [ChainId.RINKEBY]: '0x129175d454D91Df65795640c264752B9B1eB8738',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 export const USDT_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
@@ -550,7 +736,8 @@ export const USDT_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } 
   [ChainId.RINKEBY]: '0x8B1336aa37b8129B7e5A7EF5d4EFfEc60B34001E',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 export const USDC_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
@@ -560,7 +747,8 @@ export const USDC_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } 
   [ChainId.RINKEBY]: '0x57793Ea74C545618F8E26B6Ecfbb62205885D1C4',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 export const DAI_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
@@ -570,7 +758,8 @@ export const DAI_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } =
   [ChainId.RINKEBY]: '0xbef224eeb6959870511d2280Ce7271c42a2c0B78',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 export const tBONE_BONE_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
@@ -580,7 +769,8 @@ export const tBONE_BONE_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: str
   [ChainId.RINKEBY]: '0x492C7770375C2F117B5225AabF656f7B1D0C214b',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from tBone
@@ -591,7 +781,8 @@ export const XFUND_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string }
   [ChainId.RINKEBY]: '0x492C7770375C2F117B5225AabF656f7B1D0C214b',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from tBone
@@ -602,7 +793,8 @@ export const PERL_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } 
   [ChainId.RINKEBY]: '0x492C7770375C2F117B5225AabF656f7B1D0C214b',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from tBone
@@ -613,7 +805,8 @@ export const F9_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = 
   [ChainId.RINKEBY]: '0x492C7770375C2F117B5225AabF656f7B1D0C214b',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from tBone
@@ -624,7 +817,8 @@ export const RYOSHIS_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string
   [ChainId.RINKEBY]: '0x492C7770375C2F117B5225AabF656f7B1D0C214b',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from tBone
@@ -635,7 +829,8 @@ export const ZIG_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } =
   [ChainId.RINKEBY]: '0x492C7770375C2F117B5225AabF656f7B1D0C214b',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from mainnet
@@ -646,7 +841,8 @@ export const CIV_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } =
   [ChainId.RINKEBY]: '0x8503Bf17460Aed3d19e5e09BBC2B8d70aA79ec6e',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from mainnet
@@ -657,7 +853,8 @@ export const BASIC_BONE_REWARDS_MERKLE_DISTRIBUTOR: { [chainId in ChainId]?: str
   [ChainId.RINKEBY]: '0x205c41bf932A34E14fea6b9B25585b3A5903aEeB',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from mainnet
@@ -668,7 +865,8 @@ export const VEMP_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } 
   [ChainId.RINKEBY]: '0xC2cB0C2bDE7436Fb90C187bA072a5038B3Fd172f',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
 
 // Test network addreses are not corerct. Copied from mainnet
@@ -679,5 +877,6 @@ export const UFO_MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } =
   [ChainId.RINKEBY]: '0x49b7B2cBa504088Ff94615d8929d41F5535d1877',
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
-  [ChainId.SHIBARIUM] : ''
+  [ChainId.SHIBARIUM] : '',
+  [ChainId.OPTIMISM_SEPOLIA]: ''
 }
