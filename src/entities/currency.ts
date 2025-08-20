@@ -58,6 +58,15 @@ export class Currency {
     [ChainId.PUPPYNET]: Currency.BONE,
     [ChainId.SHIBARIUM]: Currency.BONE,
     [ChainId.OPTIMISM_SEPOLIA]: Currency.ETHER,
+    [ChainId.BASE_SEPOLIA]: Currency.ETHER,
+    [ChainId.POLYGON_AMOY]: Currency.MATIC,
+    [ChainId.LINEA_SEPOLIA]: Currency.ETHER,
+    [ChainId.SCROLL_SEPOLIA]: Currency.ETHER,
+    [ChainId.MANTLE_TESTNET]: Currency.ETHER,
+    [ChainId.CELO_ALFAJORES]: Currency.ETHER,
+    [ChainId.ARBITRUM_SEPOLIA]: Currency.ETHER,
+    [ChainId.BLAST_SEPOLIA]: Currency.ETHER,
+    [ChainId.GNOSIS_CHIADO]: Currency.XDAI,
   }
 
   /**

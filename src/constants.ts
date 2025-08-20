@@ -30,7 +30,16 @@ export enum ChainId {
   SEPOLIA = 11155111,
   PUPPYNET = 157,
   SHIBARIUM = 109,
-  OPTIMISM_SEPOLIA = 11155420
+  OPTIMISM_SEPOLIA = 11155420,
+  BASE_SEPOLIA = 84532,
+  POLYGON_AMOY = 80002,
+  LINEA_SEPOLIA = 59141,
+  SCROLL_SEPOLIA = 534351,
+  MANTLE_TESTNET = 5003,
+  CELO_ALFAJORES = 44787,
+  ARBITRUM_SEPOLIA = 421614,
+  BLAST_SEPOLIA = 168587773,
+  GNOSIS_CHIADO = 10200
 }
 
 export enum TradeType {
@@ -71,7 +80,16 @@ export const SHIBA_CODE_HASH: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '0x65d1a3b1e46c6e4f1be1ad5f99ef14dc488ae0549dc97db9b30afe2241ce1c7a',
   [ChainId.SHIBARIUM] : '0x65d1a3b1e46c6e4f1be1ad5f99ef14dc488ae0549dc97db9b30afe2241ce1c7a',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 // TODO REMOVE
@@ -99,7 +117,16 @@ export const SUSHI_FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.PUPPYNET] : '',
   [ChainId.SHIBARIUM] : '',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 export const SHIBASWAP_FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
@@ -126,7 +153,16 @@ export const SHIBASWAP_FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA]: '0xb9E15055807FcDd1f845c1eBF04BF7A176379faA',
   [ChainId.PUPPYNET] : '0xb9E15055807FcDd1f845c1eBF04BF7A176379faA',
   [ChainId.SHIBARIUM] : '0xc2b4218F137e3A5A9B98ab3AE804108F0D312CBC',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 export const SHIBASWAP_ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -153,7 +189,16 @@ export const SHIBASWAP_ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x48717E3f404031B00ECA7A69E3918f541c496E0d',
   [ChainId.SHIBARIUM] : '0xEF83bbB63E8A7442E3a4a5d28d9bBf32D7c813c8',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -181,7 +226,16 @@ export const SHIBASWAP_BONE_TOKEN_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x0000000000000000000000000000000000001010',
   [ChainId.SHIBARIUM] : '0x0000000000000000000000000000000000001010',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -209,7 +263,16 @@ export const SHIBASWAP_BURY_BONE_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x9d85c1420622ba1ad21B8299AEEFb3356037a984',
   [ChainId.SHIBARIUM] : '0x9d85c1420622ba1ad21B8299AEEFb3356037a984',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -237,7 +300,16 @@ export const SHIBASWAP_BURY_LEASH_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x5a7540C532f744C108dE81d6FE4c6aD614587A53',
   [ChainId.SHIBARIUM] : '0x5a7540C532f744C108dE81d6FE4c6aD614587A53',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -265,7 +337,16 @@ export const SHIBASWAP_BURY_SHIB_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x6f4A7A3063C531F3124f7a5c50331f5b35235Dd8',
   [ChainId.SHIBARIUM] : '0x6f4A7A3063C531F3124f7a5c50331f5b35235Dd8',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -277,7 +358,16 @@ export const BONE_LOCKER_ADDRESS: { [chainId in ChainId]?: string } = {
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0x15176d8986817C0B58e6fb7EB31dfFB56D195987',
   [ChainId.SHIBARIUM] : '0x15176d8986817C0B58e6fb7EB31dfFB56D195987',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -305,7 +395,16 @@ export const SHIBASWAP_TOPDOG_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '0x0aD1b189c682D4Dc16a54f173d2dbe6cEafD3141',
   [ChainId.SHIBARIUM] : '0x0aD1b189c682D4Dc16a54f173d2dbe6cEafD3141',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -333,7 +432,16 @@ export const SHIBASWAP_UNI_FETCH_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
   [ChainId.SHIBARIUM] : '',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -361,7 +469,16 @@ export const SHIBASWAP_SUSHI_FETCH_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
   [ChainId.SHIBARIUM] : '',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -374,7 +491,16 @@ export const SHIBA_DASHBOARD_1_ADDRESS: { [chainId in ChainId]?: string } = {
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
   [ChainId.SHIBARIUM] : '',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -387,7 +513,16 @@ export const SHIBA_DASHBOARD_2_ADDRESS: { [chainId in ChainId]?: string } = {
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '',
   [ChainId.SHIBARIUM] : '',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -415,7 +550,16 @@ export const SHIBASWAP_SHIB_TOKEN_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '0xAc720702Df63fa92416B3dEB24Dc4a1854f73330',
   [ChainId.SHIBARIUM] : '0x495eea66B0f8b636D441dC6a98d8F5C3D455C4c0',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 
@@ -443,7 +587,16 @@ export const SHIBASWAP_LEASH_TOKEN_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA]: '',
   [ChainId.PUPPYNET] : '0x367a6722F2e2b09b6024A1C05deAD45e68CE385A',
   [ChainId.SHIBARIUM] : '0x65218A41Fb92637254B4f8c97448d3dF343A3064',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 // Mostly not needed
@@ -472,7 +625,16 @@ export const SHIBASWAP_TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.SEPOLIA] : '',
   [ChainId.PUPPYNET] : '',
   [ChainId.SHIBARIUM] : '',
-  [ChainId.OPTIMISM_SEPOLIA]: ''
+  [ChainId.OPTIMISM_SEPOLIA]: '',
+  [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.POLYGON_AMOY]: '',
+  [ChainId.LINEA_SEPOLIA]: '',
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MANTLE_TESTNET]: '',
+  [ChainId.CELO_ALFAJORES]: '',
+  [ChainId.ARBITRUM_SEPOLIA]: '',
+  [ChainId.BLAST_SEPOLIA]: '',
+  [ChainId.GNOSIS_CHIADO]: ''
 }
 
 // TODO GOLIVE
